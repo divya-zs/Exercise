@@ -2,6 +2,7 @@ package bob
 
 import "strings"
 
+//MyFunction is a function
 func MyFunction(input string) interface{} {
 	switch {
 	case strings.ToUpper(input) == input && strings.HasSuffix(input, "?"):
